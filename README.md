@@ -56,3 +56,8 @@ I could not figure out how to read the ADCMEM for multiple sensors at one time. 
 
 
 ####Debuggin A Functionality
+
+
+#### Documentation
+Lesson 35 powerpoint sent out by Dr. York
+Dr. York suggested multiple functions instead of trying to cram it all in to one function for each sensor
