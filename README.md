@@ -17,10 +17,10 @@ Description: Lab 7 is IR senors talking to the MSP430. This builds off of lab 6 
 **Hardware Setup**
 This is what the MSP430 looks like in picture form.
 
-![MSP430]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/MSP430.jpg?raw=true "MSP430" )
+![MSP430]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/MSP430.JPG?raw=true "MSP430" )
 
 The pins I chose are important. As you can see below, they line up with A3, A4, & A5 which will be used in the coding.
 
-![MSP430 diagram]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/MSP430diagram.jpg?raw=true "MSP430 diagram" )
+![MSP430 diagram]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/MSP430diagram.JPG?raw=true "MSP430 diagram" )
 
 **Psuedo Code**
