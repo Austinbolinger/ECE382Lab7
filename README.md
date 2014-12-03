@@ -38,6 +38,10 @@ Finally: change the lights according to which pin was read and what the voltage 
 
 ![Flow Chart]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/FlowChart.JPG?raw=true "Flow Chart" )
 
+
+**Testing**
+I first started by hooking up power to the the sensors. Next I hooked up the DMM to test the voltage outputs when a piece of paper got closer and closer. I noticed that the voltage range is from 0.1V to 3V. And 3V only occurs when really close to the sensors. I also noticed that my right sensor does not always work. I played around with the angle and noticed that I could position it so that it worked better most of the time.
+
 ##Lab
 
 ####Functionality
