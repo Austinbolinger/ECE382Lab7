@@ -49,9 +49,13 @@ Use the ADC subsystem to light LEDs based on the presence of a wall. The presenc
 
 ####B Functionality
 Create a standalone library for your ATD code and release it on Github. This should be separate from your lab code. It should have a thoughtful interface and README, capable of being reused in the robot maze laboratory.
+https://github.com/Austinbolinger/ECE382Lab7/tree/master/Lab7pre
 
 ####A Functionality
 
+![Data]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/data.JPG?raw=true "data" )
+
+![Graph]( https://github.com/Austinbolinger/ECE382Lab7/blob/master/graph.JPG?raw=true "graph" )
 
 ####Debuggin Functionality
 I could not figure out how to read the ADCMEM for multiple sensors at one time. I tried googling the problem. But, the clearity did not kick in until I talked with Dr. York. He suggested that I just do what I know I can do [one sensor reading at a time] and then just repeat the process three times. So I went with three functions that called up each sensor. They pins I picked on the MSP430 relate to the A3, A4, and A5. In the code I had to specify which pin to talk to and which 
