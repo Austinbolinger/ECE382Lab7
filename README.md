@@ -61,10 +61,10 @@ https://github.com/Austinbolinger/ECE382Lab7/tree/master/Lab7pre
 I could not figure out how to read the ADCMEM for multiple sensors at one time. I tried googling the problem. But, the clearity did not kick in until I talked with Dr. York. He suggested that I just do what I know I can do [one sensor reading at a time] and then just repeat the process three times. So I went with three functions that called up each sensor. They pins I picked on the MSP430 relate to the A3, A4, and A5. In the code I had to specify which pin to talk to and which 
 
 ####Debuggin B Functionality
-
+This was not hard to do. I just moved my code from main to in to a header file.
 
 ####Debuggin A Functionality
-
+I measured my voltages from each sensor with a ruler measuring the distance to the wall in the maze. I took the voltage value multiplied it by 1023 for 10 bits and diveded it by 5 volts to get a decimal value. I then converted the decimal value to hex in order to use that for Lab 8.
 
 #### Documentation
 Lesson 35 powerpoint sent out by Dr. York
